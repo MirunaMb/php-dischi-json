@@ -32,11 +32,17 @@
                 <section class="container d-flex align-items-center">
                     <div>
                         <a href="./index.php">
-                            <img src="./img/logo.png" alt="">
+                            <img src="./img/logo.png" alt="" class="w-25">
                         </a>
                     </div>
                 </section>
             </header>
+            <article>
+                <main>
+                    <h1></h1>
+                </main>
+            </article>
+
 
 
         </div>
