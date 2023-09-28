@@ -1,0 +1,15 @@
+#app {
+    height: 100vh;
+    width: 100%;
+}
+:root{
+    --body-bg :#1D2D3C;
+    --header-h: 80px;
+}
+body{
+    background-color: var(--body-bg);
+}
+header{
+    background-color: #06131F;
+    height: var(--header-h);
+}
