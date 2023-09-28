@@ -2,17 +2,76 @@
     height: 100vh;
     width: 100%;
 }
-:root{
-    --body-bg :#1D2D3C;
+
+:root {
+    --card-bg: #112030;
+    --body-bg: #1D2D3C;
     --header-h: 80px;
+    --main-h: calc(100vh - 80px);
+    --hover: #112031bf;
 }
-body{
+
+body {
     background-color: var(--body-bg);
 }
-header{
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
     background-color: #06131F;
     height: var(--header-h);
 }
+
+article {
+    overflow-y: auto;
+    position: relative;
+}
+
+
+main {
+    height: var(--main-h);
+}
+
+section {
+    height: 100%;
+}
+
 img {
     max-width: 80%;
+}
+
+section img {
+    max-width: 40px;
+}
+
+
+.ms_container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #06131F;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+
+.hidden {
+    width: 80%;
+    position: fixed;
+    top: 130px;
+    z-index: 10;
+    background-color: var(--hover);
+}
+
+i {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 2rem;
 }
