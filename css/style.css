@@ -13,3 +13,6 @@ header{
     background-color: #06131F;
     height: var(--header-h);
 }
+img {
+    max-width: 80%;
+}
